@@ -33,8 +33,9 @@
 }
 
 .section-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #333;
+  font-family:'Merriweather', sans-serif;
+  font-size: 1rem; /* Aumenta el tamaño de la letra */
+  font-weight: bold; /* Texto en negrita */
+  color: #2d2a2a; /* Cambia el color del texto */
   margin: 10px 0;
 }

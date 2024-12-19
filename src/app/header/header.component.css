@@ -1,5 +1,5 @@
 .header {
-  background-color: rgba(195, 235, 233, 0.23) !important; /* Totalmente transparente */
+   background-color: rgba(255, 255, 255, 0.7); /* Totalmente transparente */
   backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo detrás */
   z-index: 1000; /* Mantener el header por encima del contenido */
   position: fixed;
@@ -12,15 +12,17 @@
   padding: 0 20px;
 }
 
-
-
-
+/* Buscador*/
 
 .search-bar input {
+  border: 2px solid #2d2a2a; /* Borde negro automático */
   border-radius: 20px; /* Borde redondeado */
-  font-size: 1rem; /* Tamaño más grande */
-  padding: 8px 12px;
+  font-size: 1rem; /* Tamaño del texto */
+  padding: 8px 12px; /* Espaciado interno */
+  width: 100%; /* Responsivo: ocupa todo el espacio disponible */
+  box-sizing: border-box; /* Asegura que el padding no desborde */
 }
+
 
 .logo-circle {
   width: 60px; /* Tamaño del círculo */

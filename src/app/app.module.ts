@@ -17,6 +17,7 @@ import { EspecificacionPlayaComponent } from './especificacion-playa/especificac
 import { ValorarComponent } from './valorar/valorar.component';
 import { DetalleActividadComponent } from './detalle-actividad/detalle-actividad.component';
 import { EspecificacionActividadComponent } from './especificacion-actividad/especificacion-actividad.component';
+import { BackButtonComponent } from './back-button/back-button.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { EspecificacionActividadComponent } from './especificacion-actividad/esp
     EspecificacionPlayaComponent,
     ValorarComponent,
     DetalleActividadComponent,
-    EspecificacionActividadComponent
+    EspecificacionActividadComponent,
+    BackButtonComponent
   ],
   imports: [
     BrowserModule,
