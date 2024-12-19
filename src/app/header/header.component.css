@@ -1,5 +1,5 @@
 .header {
-  background-color: rgba(155, 211, 207, 0); /* Totalmente transparente */
+  background-color: rgba(195, 235, 233, 0.23) !important; /* Totalmente transparente */
   backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo detrás */
   z-index: 1000; /* Mantener el header por encima del contenido */
   position: fixed;
@@ -26,7 +26,7 @@
   width: 60px; /* Tamaño del círculo */
   height: 60px;
   overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
-  border: 2px solid #000; /* Borde negro */
+  border: 2px solid #2d2a2a; /* Borde negro */
   border-radius: 50%; /* Hace el círculo perfecto */
   display: flex;
   justify-content: center;
