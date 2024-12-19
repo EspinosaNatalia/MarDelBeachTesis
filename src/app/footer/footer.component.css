@@ -1,0 +1,19 @@
+.footer {
+  background-color: rgba(255, 255, 255, 0.9); /* Blanco semitransparente */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Sutil sombra superior */
+}
+
+.footer .container {
+  padding: 10px 0;
+}
+
+.footer .text-center i {
+  font-size: 1.5rem; /* Tamaño de los íconos */
+  color: #000; /* Negro automático */
+}
+
+.footer .text-center p {
+  font-size: 0.9rem; /* Tamaño del texto */
+  margin: 0; /* Sin margen */
+  color: #000; /* Negro automático */
+}

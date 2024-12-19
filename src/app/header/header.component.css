@@ -1,0 +1,40 @@
+.header {
+  background-color: rgba(155, 211, 207, 0); /* Totalmente transparente */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo detrás */
+  z-index: 1000; /* Mantener el header por encima del contenido */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+
+
+
+.search-bar input {
+  border-radius: 20px; /* Borde redondeado */
+  font-size: 1rem; /* Tamaño más grande */
+  padding: 8px 12px;
+}
+
+.logo-circle {
+  width: 60px; /* Tamaño del círculo */
+  height: 60px;
+  overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+  border: 2px solid #000; /* Borde negro */
+  border-radius: 50%; /* Hace el círculo perfecto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-circle img {
+  width: 100%; /* Ajusta la imagen para llenar el círculo */
+  height: 100%;
+  object-fit: cover; /* Corta y ajusta la imagen sin distorsionarla */
+}
